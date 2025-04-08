@@ -9,29 +9,37 @@
  * @package baizonn
  */
 ?>
- <!DOCTYPE html>
- <html <?php language_attributes(); ?>>
- <head>
-	 <meta charset="<?php bloginfo( 'charset' ); ?>">
-	 <meta name="viewport" content="width=device-width, initial-scale=1">
-	 <?php wp_head(); ?>
- </head>
- 
- <body <?php body_class(); ?>>
- <?php wp_body_open(); ?>
- <div id="page" class="site">
- 
-	 <header id="masthead" class="site-header">
-		 <div class="header-container">
-			 <!-- Logo Only -->
-			 <div class="site-branding">
-				 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				 <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Centre-Logo-1.png" alt="Baizonn Learning Centre" class="site-logo">
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<?php wp_head(); ?>
+</head>
 
-				 </a>
-			 </div>
-		 </div>
-	 </header>
- 
-	 <div id="content" class="site-content">
- 
+<body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
+<div id="page" class="site">
+
+	<header id="masthead" class="site-header">
+		<div class="header-container">
+			<!-- Logo -->
+			<div class="site-branding">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Centre-Logo-1.jpg" alt="Baizonn Learning Centre" class="site-logo">
+				</a>
+			</div>
+
+			<!-- Navigation -->
+			<nav id="site-navigation" class="main-navigation">
+				<?php
+				wp_nav_menu( array(
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'primary-menu',
+				) );
+				?>
+			</nav>
+		</div>
+	</header>
+
+	<div id="content" class="site-content">
