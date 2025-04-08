@@ -26,7 +26,8 @@
 			 <!-- Logo Only -->
 			 <div class="site-branding">
 				 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					 <img src="<?php echo get_template_directory_uri(); ?>C:\Users\admin\Local Sites\baizonn\app\public\wp-content\themes\baizonn\Baizonn Content\Centre Logo 1.png" alt="Baizonn Learning Centre" class="site-logo">
+				 <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Centre-Logo-1.png" alt="Baizonn Learning Centre" class="site-logo">
+
 				 </a>
 			 </div>
 		 </div>
