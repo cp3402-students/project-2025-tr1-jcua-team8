@@ -968,6 +968,48 @@ textarea {
 	margin-bottom: 1.5em;
 }
 
+/* ========== Header with Logo Only ========== */
+
+.header-container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 1rem 2rem;
+	background-color: #e7f6f2;
+}
+
+.site-logo {
+	height: 60px;
+	max-width: 180px;
+}
+
+/* ========== Navigation Menu Styling ========== */
+
+.main-navigation ul {
+	list-style: none;
+	display: flex;
+	gap: 2rem;
+	margin: 0;
+	padding: 0;
+}
+
+.main-navigation li {
+	display: inline-block;
+}
+
+.main-navigation a {
+	text-decoration: none;
+	color: #007b5e;
+	font-weight: 600;
+	font-size: 1rem;
+	transition: color 0.3s ease;
+}
+
+.main-navigation a:hover {
+	color: #005f47;
+}
+
+
 /*--------------------------------------------------------------
 # Custom Homepage Styles - Baizonn Learning Center
 --------------------------------------------------------------*/
