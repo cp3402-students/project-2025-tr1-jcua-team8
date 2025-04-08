@@ -1098,4 +1098,110 @@ body {
 	font-size: 0.9rem;
 	margin-top: 2rem;
   }
-  
+
+
+/*--------------------------------------------------------------
+# About Page Styles
+--------------------------------------------------------------*/
+
+.about-page .container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.about-hero {
+	background-color: #e7f6f2;
+	text-align: center;
+	padding: 4rem 2rem;
+}
+
+.about-hero h1 {
+	color: #007b5e;
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+}
+
+.about-hero p {
+	font-size: 1.2rem;
+	color: #444;
+}
+
+.about-philosophy, .about-values {
+	background-color: #ffffff;
+	padding: 3rem 2rem;
+}
+
+.about-philosophy .two-col,
+.about-values .two-col {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	align-items: center;
+}
+
+.about-philosophy .text, .about-values .text {
+	flex: 1 1 55%;
+}
+
+.about-philosophy .image, .about-values .image {
+	flex: 1 1 45%;
+}
+
+.about-philosophy img,
+.about-values img {
+	width: 100%;
+	border-radius: 12px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-philosophy h2,
+.about-values h2,
+.about-achievements h2,
+.about-videos h2 {
+	font-size: 2rem;
+	color: #007b5e;
+	margin-bottom: 1rem;
+}
+
+.about-achievements {
+	background-color: #f9f9f9;
+	padding: 3rem 2rem;
+	text-align: center;
+}
+
+.awards-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+.awards-gallery img {
+	width: 200px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-videos {
+	background: #ffffff;
+	padding: 3rem 2rem;
+	text-align: center;
+}
+
+.about-videos .video-embed {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2rem;
+	margin-top: 1rem;
+}
+
+.about-videos iframe {
+	width: 100%;
+	max-width: 500px;
+	height: 280px;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
