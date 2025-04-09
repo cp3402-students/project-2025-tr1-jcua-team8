@@ -15,7 +15,7 @@
     <div class="footer-column">
       <h4>Contact Us</h4>
       <p>1007A Upper Serangoon Road<br>Singapore 534745</p>
-      <p>+65 9226-0780<br>+65 9879-2692</p>
+      <p>(+65) 62811816 </p>
       <p><a href="mailto:BaizonnLearning@gmail.com">BaizonnLearning@gmail.com</a></p>
     </div>
 
