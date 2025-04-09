@@ -8,24 +8,39 @@
  *
  * @package baizonn
  */
-
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'baizonn' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered tata by %s', 'baizonn' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'baizonn' ), 'baizonn', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+<footer id="colophon" class="site-footer">
+  <div class="footer-columns">
+    <div class="footer-column">
+      <h4>Contact Us</h4>
+      <p>1007A Upper Serangoon Road<br>Singapore 534745</p>
+      <p>+65 9226-0780<br>+65 9879-2692</p>
+      <p><a href="mailto:BaizonnLearning@gmail.com">BaizonnLearning@gmail.com</a></p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="<?php echo home_url(); ?>">Home</a></li>
+        <li><a href="<?php echo home_url('/about'); ?>">About</a></li>
+        <li><a href="<?php echo home_url('/programs'); ?>">Programs</a></li>
+        <li><a href="<?php echo home_url('/contact'); ?>">Contact</a></li>
+        <li><a href="<?php echo home_url('/open-house'); ?>">Open House</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <p><a href="https://www.facebook.com/BaizonnLearningCentre" target="_blank">Facebook</a></p>
+      <p><a href="http://baizonn.com" target="_blank">Website</a></p>
+    </div>
+  </div>
+
+  <div class="site-info">
+    <p>&copy; <?php echo date('Y'); ?> Baizonn Learning Centre. All rights reserved.</p>
+  </div><!-- .site-info -->
+</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
