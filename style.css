@@ -1668,4 +1668,32 @@ textarea {
   .footer-bottom a:hover {
 	text-decoration: underline;
   }
-  
+
+ /* ============================
+        Registration Styling
+============================= */ 
+ 
+  .registration-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #f0fdf9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.registration-header h1 {
+    color: #007b5e;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.registration-header p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.registration-form {
+    margin-top: 2rem;
+}
+ 
