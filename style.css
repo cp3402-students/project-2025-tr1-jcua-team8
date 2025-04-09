@@ -1487,72 +1487,57 @@ body {
     border: 2px solid #007b5e;
     border-radius: 8px;
 }
-/* ======= Footer Styles ======= */
+/* ======================
+   Footer Section Styling
+========================= */
 .site-footer {
 	background-color: #007b5e;
-	color: #ffffff;
-	padding: 2rem 1rem;
-	margin-top: 3rem;
-	font-family: 'Segoe UI', sans-serif;
-  }
-  
-  .footer-columns {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 2rem;
-	justify-content: space-between;
-	max-width: 1100px;
-	margin: 0 auto;
-  }
-  
-  .footer-column {
-	flex: 1 1 250px;
-  }
-  
-  .footer-column h4 {
-	font-size: 1.2rem;
-	color: #fff;
-	margin-bottom: 0.8rem;
-	border-bottom: 2px solid rgba(255,255,255,0.2);
-	padding-bottom: 0.4rem;
-  }
-  
-  .footer-column p,
-  .footer-column a,
-  .footer-column li {
-	color: #d7f7ee;
+	color: white;
+	padding: 3rem 1rem 1rem;
+	text-align: center;
 	font-size: 0.95rem;
-	line-height: 1.6;
-	margin-bottom: 0.5rem;
+  }
+  
+  .site-footer a {
+	color: white;
 	text-decoration: none;
   }
   
-  .footer-column a:hover {
+  .site-footer a:hover {
 	text-decoration: underline;
-	color: #ffffff;
   }
   
-  .footer-column ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+  /* Layout for 3 columns */
+  .footer-columns {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: left; /* aligns all text to the left */
+	margin-bottom: 2rem;
   }
   
-  .site-info {
-	text-align: center;
-	margin-top: 2rem;
-	font-size: 0.9rem;
-	color: #ccc;
+  .footer-column {
+	flex: 1;
+	min-width: 200px;
+	padding: 0 1rem;
+  }
+  
+  .footer-column h3 {
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+	padding-bottom: 0.5rem;
+  }
+  
+  .footer-bottom {
 	border-top: 1px solid rgba(255,255,255,0.2);
 	padding-top: 1rem;
+	font-size: 0.85rem;
+	color: #e0e0e0;
   }
   
-  /* Responsive */
-  @media (max-width: 768px) {
-	.footer-columns {
-	  flex-direction: column;
-	  text-align: center;
-	}
+  .footer-bottom a {
+	color: white;
+	margin: 0 0.25rem;
   }
-   
-	
+  
