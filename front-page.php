@@ -41,12 +41,6 @@ get_header(); ?>
   <p>Whether preparing for PSLE or tackling advanced JC topics, our tailored programs meet every student where they are. Experience hands-on activities, concept-based learning, and real academic results.</p>
 </section>
 
-<!-- Additional Info -->
-<section class="home-highlight">
-  <h2>Our Programs Empower Every Learner</h2>
-  <p>Whether preparing for PSLE or tackling advanced JC topics, our tailored programs meet every student where they are. Experience hands-on activities, concept-based learning, and real academic results.</p>
-</section>
-
 <!-- Our Values Preview Section -->
 <section class="home-values-preview">
   <h2>Our Core Values</h2>
