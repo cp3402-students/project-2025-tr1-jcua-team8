@@ -1,40 +1,53 @@
 <?php
 /* Template Name: Contact Page */
-get_header();
-?>
+get_header(); ?>
 
 <div class="contact-container">
-  
-  <!-- Top Signboard Image -->
-  <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Signboard 2.jpg" alt="Baizonn Signboard" class="contact-banner" />
-
   <h1>Contact Us</h1>
-  <p>We’d love to hear from you! Reach out to us via phone, email, or visit our center directly.</p>
+  <p>We’d love to hear from you. Whether you're looking for directions, program details, or registration info, we’re here to help!</p>
 
-  <div class="contact-wrapper">
-    <div class="contact-info">
-      <h2>📍 Our Address</h2>
-      <p>1007A Upper Serangoon Road, Singapore 534745</p>
+  <!-- Directions Section -->
+  <section class="directions-section">
+    <h2>How to Reach Us</h2>
+    <p>Here’s how to reach Baizonn Learning Centre using various transport modes:</p>
 
-      <h2>📞 Phone</h2>
-      <p><a href="tel:+6592260780">+65 9226-0780</a>, <a href="tel:+6598792692">+65 9879-2692</a></p>
-
-      <h2>📧 Email</h2>
-      <p><a href="mailto:BaizonnLearning@gmail.com">BaizonnLearning@gmail.com</a></p>
-
-      <h2>🌐 Website & Socials</h2>
-      <p>
-        <a href="http://baizonn.com">www.baizonn.com</a><br>
-        <a href="https://www.facebook.com/BaizonnLearningCentre">Facebook Page</a>
-      </p>
+    <div class="directions-gallery">
+      <div class="transport-block">
+        <h3>🚗 By Car</h3>
+        <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Direction By Car 2.tif" alt="Direction by Car">
+        <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Direction By Car 3.tif" alt="More Direction by Car">
+      </div>
+      <div class="transport-block">
+        <h3>🚌 By Bus</h3>
+        <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Direction By Bus 2.tif" alt="Direction by Bus">
+        <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Direction By Bus 3.tif" alt="More Direction by Bus">
+      </div>
+      <div class="transport-block">
+        <h3>💆‍♂️ By MRT</h3>
+        <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Direction By MRT 2.tif" alt="Direction by MRT">
+        <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Direction By MRT 3.tif" alt="More Direction by MRT">
+      </div>
+      <div class="transport-block">
+        <h3>📍 Centre Overview</h3>
+        <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Direction to Center.tif" alt="Center Map">
+      </div>
     </div>
+  </section>
 
-    <div class="contact-form">
-      <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Center 4.JPG" alt="Baizonn Center" class="contact-image" />
-      <h2>Send Us a Message</h2>
-      <?php echo do_shortcode('[contact-form-7 id="123" title="Contact form"]'); ?>
-    </div>
-  </div>
+  <!-- Contact Details Section -->
+  <section class="contact-details">
+    <h2>Our Address & Contact</h2>
+    <p><strong>Address:</strong> 1007A Upper Serangoon Road, Singapore 534745</p>
+    <p><strong>Phone:</strong> (+65) 62811816  </p>
+    <p><strong>Email:</strong> <a href="mailto:BaizonnLearning@gmail.com">BaizonnLearning@gmail.com</a></p>
+    <p><strong>Facebook:</strong> <a href="https://www.facebook.com/BaizonnLearningCentre" target="_blank">BaizonnLearningCentre</a></p>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="contact-cta">
+    <h2>Ready to Start Your Journey with Us?</h2>
+    <a href="<?php echo home_url('/registration'); ?>" class="btn-primary">Register Now</a>
+  </section>
 </div>
 
 <?php get_footer(); ?>
