@@ -1017,8 +1017,11 @@ textarea {
 	text-decoration: none;
 	color: #007b5e;
 	font-weight: 600;
-	font-size: 1rem;
+	font-size: 1.1rem; /* slightly bigger */
 	transition: color 0.3s ease;
+	padding: 0.4rem 0.6rem; /* slight spacing for click area */
+}
+
 }
 
 .main-navigation a:hover {
