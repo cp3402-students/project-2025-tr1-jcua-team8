@@ -7,6 +7,11 @@
 get_header(); ?>
 
 <main id="primary" class="site-main about-page">
+    <!-- About Page Top Banner -->
+    <div class="about-banner">
+    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Centre Logo 9.jpg" alt="About Us Banner" class="about-banner-image">
+    </div>
+
     <section class="about-hero">
         <div class="container">
             <h1>Welcome to Baizonn Learning Centre</h1>
