@@ -3,12 +3,8 @@
 get_header(); ?>
 
 <!-- Hero Section -->
-<div class="hero-banner">
+<div class="hero-banner no-overlay">
   <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Signboard 2.jpg" alt="Baizonn Signboard" class="hero-image">
-  <div class="hero-text">
-    <h1>Welcome to Baizonn Learning Centre</h1>
-    <p>Where Knowledge Meets Passion</p>
-  </div>
 </div>
 
 <!-- About Section -->
@@ -19,7 +15,7 @@ get_header(); ?>
       <p>Founded in 2013, Baizonn Learning Centre offers a holistic education journey in Science, Math, and STEM. We focus on helping every student discover their unique learning style through a hands-on approach, tailored feedback, and passionate mentorship.</p>
     </div>
     <div class="image-block">
-      <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Teaching 2.JPG" alt="Teaching in Progress">
+      <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Center 6.JPG" alt="Baizonn Centre Entrance">
     </div>
   </div>
 </section>
@@ -47,21 +43,17 @@ get_header(); ?>
       </ul>
     </div>
     <div class="image-box">
-      <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Info 1 -Teaching Philosophy.jpg" alt="Philosophy">
+      <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Info 3 -F.A.S.T Value Proposition.jpg" alt="FAST Value Image">
     </div>
   </div>
 </section>
 
-<!-- Gallery Section -->
+<!-- Gallery Section (Reduced Images) -->
 <section class="home-section gallery">
-  <h2 class="section-heading">Life at Baizonn</h2>
+  <h2 class="section-heading">Inside Baizonn</h2>
   <div class="gallery-grid">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Center 1.JPG" alt="Classroom 1">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Center 2.jpg" alt="Classroom 2">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Center 3.jpg" alt="Classroom 3">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Teaching 1.JPG" alt="Teacher in Class">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Open House 2021 2.JPG" alt="Open House Event">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Award 1.jpg" alt="Award Recognition">
+    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Center 5.JPG" alt="Classroom">
+    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Award 3.jpg" alt="Award Presentation">
   </div>
 </section>
 
@@ -72,7 +64,8 @@ get_header(); ?>
     <p>Book your seat now for the 2025 intake and claim your FREE Baizonn T-Shirt at the Open House!</p>
     <a href="<?php echo home_url('/open-house'); ?>" class="btn-primary">Register for Open House</a>
   </div>
-  <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/T-Shirt.png" alt="Free T-Shirt" class="cta-image">
+  <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Centre Logo 9.jpg" alt="Baizonn Visual" class="cta-image">
 </section>
 
 <?php get_footer(); ?>
+
