@@ -968,46 +968,66 @@ textarea {
 	margin-bottom: 1.5em;
 }
 
-/* ========== Header with Logo Only ========== */
+/* ========== Header Redesign ========== */
 
-.header-container {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-	padding: 1rem 2rem;
+.site-header {
 	background-color: #e7f6f2;
-}
-
-.site-logo {
-	height: 60px;
-	max-width: 180px;
-}
-
-/* ========== Navigation Menu Styling ========== */
-
-.main-navigation ul {
-	list-style: none;
+	text-align: center;
+	padding: 1.5rem 0;
+  }
+  
+  .header-top {
 	display: flex;
-	gap: 2rem;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .custom-logo-link img {
+	max-height: 80px;
+	width: auto;
+	margin-bottom: 0.5rem;
+  }
+  
+  .site-title {
 	margin: 0;
+	font-size: 2rem;
+	color: #007b5e;
+  }
+  
+  .site-description {
+	font-size: 1rem;
+	color: #555;
+	margin-top: 0.25rem;
+  }
+  
+  .main-navigation {
+	margin-top: 1rem;
+	border-top: 1px solid #cceae4;
+	padding-top: 1rem;
+  }
+  
+  .main-navigation ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1.5rem;
+	list-style: none;
 	padding: 0;
-}
-
-.main-navigation li {
-	display: inline-block;
-}
-
-.main-navigation a {
+	margin: 0;
+  }
+  
+  .main-navigation a {
 	text-decoration: none;
 	color: #007b5e;
 	font-weight: 600;
 	font-size: 1rem;
 	transition: color 0.3s ease;
-}
-
-.main-navigation a:hover {
-	color: #005f47;
-}
+  }
+  
+  .main-navigation a:hover {
+	color: #004534;
+  }
+  
 
 
 /*--------------------------------------------------------------
