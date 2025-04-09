@@ -1591,7 +1591,7 @@ textarea {
 }
 
 .tshirt-image img {
-    width: 250px;
+    width: 320px; /* Increased from 250px */
     border: 2px solid #007b5e;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -1600,6 +1600,7 @@ textarea {
 .tshirt-image img:hover {
     transform: scale(1.05);
 }
+
 
 /* ============================
         Footer Styling
