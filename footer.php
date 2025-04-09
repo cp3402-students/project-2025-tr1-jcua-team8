@@ -20,7 +20,7 @@
     </div>
     <div class="footer-column">
       <h3>Quick Links</h3>
-      <p><a href="<?php echo esc_url( home_url()); ?>">Home</a></p>
+      <p><a href="<?php echo home_url(); ?>">Home</a></p>
       <p><a href="<?php echo esc_url( home_url('/about')); ?>">About</a></p>
       <p><a href="<?php echo esc_url( home_url('/programs')); ?>">Programs</a></p>
       <p><a href="<?php echo esc_url( home_url('/contact')); ?>">Contact</a></p>
