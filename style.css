@@ -1627,32 +1627,28 @@ textarea {
   }
   
   /* Directions Gallery */
-  .directions-gallery {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 2rem;
-	justify-content: center;
-	margin-top: 2rem;
-  }
-  
-  .transport-block {
-	flex: 1 1 300px;
-	max-width: 400px;
+  .direction-gallery {
 	text-align: center;
+	margin: 2rem auto;
   }
   
-  .transport-block h3 {
-	color: #004f40;
-	margin-bottom: 0.5rem;
-  }
-  
-  .transport-block img {
-	width: 100%;
-	height: auto;
-	border-radius: 8px;
-	box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  .direction-gallery h3 {
+	color: #005f47;
+	font-weight: 600;
 	margin-bottom: 1rem;
   }
+  
+  .direction-image {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	border-radius: 10px;
+	border: 2px solid #007b5e;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
   
   /* Contact Details */
   .contact-details {
