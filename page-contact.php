@@ -19,7 +19,7 @@ get_header(); ?>
       </div>
       <div class="transport-block">
         <h3>🚌 By Bus</h3>
-        <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Direction By Bus 2.jpg" alt="Direction by Bus">
+        <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Direction By Bus 2.jpg" alt="Direction by Bus">
         <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Direction By Bus 3.jpg" alt="More Direction by Bus">
       </div>
       <div class="transport-block">
