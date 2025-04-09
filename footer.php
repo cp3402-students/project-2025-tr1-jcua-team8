@@ -39,6 +39,10 @@
 
   <div class="site-info">
     <p>&copy; <?php echo date('Y'); ?> Baizonn Learning Centre. All rights reserved.</p>
+	<p>
+      <a href="<?php echo home_url('/privacy-policy'); ?>">Privacy Policy</a> | 
+      <a href="<?php echo home_url('/terms-of-use'); ?>">Terms of Use</a>
+    </p>
   </div><!-- .site-info -->
 </footer><!-- #colophon -->
 </div><!-- #page -->
