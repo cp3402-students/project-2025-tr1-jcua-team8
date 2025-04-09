@@ -1,45 +1,50 @@
 <?php
-/**
- * The header for our theme
- *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package baizonn
- */
-?>
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<?php wp_head(); ?>
-</head>
+/* Template Name: Home Page */
+get_header(); ?>
 
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-<div id="page" class="site">
+<!-- Hero Banner Only -->
+<div class="hero-banner no-overlay">
+  <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Signboard 2.jpg" alt="Baizonn Signboard" class="hero-image">
+</div>
 
-	<header id="masthead" class="site-header" role="banner">
-		<div class="header-top">
-			<img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Centre Logo 1.png" alt="Baizonn Learning Centre Logo" class="site-logo">
+<!-- Welcome Message & CTA -->
+<section class="home-welcome">
+  <h1>Welcome to Baizonn Learning Centre</h1>
+  <p>At Baizonn, we believe in nurturing young minds through Science, Math, and STEM-based learning. Our mission is to create confident, well-rounded learners through engaging lessons and hands-on activities.</p>
+  <a href="<?php echo home_url('/open-house'); ?>" class="btn-primary">Register Now</a>
+</section>
 
-			
-			<p class="site-description"><?php bloginfo( 'description' ); ?></p>
-		</div>
+<!-- Welcome Image Section -->
+<section class="home-image">
+  <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Center 1.JPG" alt="Welcome to Baizonn" class="welcome-image">
+</section>
 
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<?php
-				wp_nav_menu(
-					array(
-						'theme_location' => 'menu-1',
-						'menu_id'        => 'primary-menu',
-					)
-				);
-			?>
-		</nav>
-	</header>
+<!-- Information Section -->
+<section class="home-info">
+  <h2>Why Choose Baizonn?</h2>
+  <p>We follow the F.A.S.T. and S.T.E.M. framework that encourages critical thinking and real-world problem solving. From Primary to Junior College, our passionate educators are committed to excellence.</p>
+</section>
 
+<!-- Media Gallery -->
+<section class="home-gallery">
+  <h2>Inside Our Centre</h2>
+  <div class="gallery-grid">
+    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Center 2.jpg" alt="Center Classroom">
+    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Teaching 3.JPG" alt="Teaching">
+    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Award 2.jpg" alt="Award">
+  </div>
+</section>
 
-	<div id="content" class="site-content">
+<!-- Additional Info -->
+<section class="home-highlight">
+  <h2>Our Programs Empower Every Learner</h2>
+  <p>Whether preparing for PSLE or tackling advanced JC topics, our tailored programs meet every student where they are. Experience hands-on activities, concept-based learning, and real academic results.</p>
+</section>
+
+<!-- Final Call to Action -->
+<section class="home-cta-final">
+  <h2>Secure Your Spot Today!</h2>
+  <a href="<?php echo home_url('/open-house'); ?>" class="btn-primary">Join Our 2025 Intake</a>
+</section>
+
+<?php get_footer(); ?>
