@@ -77,6 +77,7 @@ get_header(); ?>
         <div class="container">
             <h2>Awards & Recognitions</h2>
             <p>Baizonn received the National Instruments Engineering Impact Award ASEAN/ANZ Regional Contest in 2016 for their innovative project on “A Smart Recirculating Aquaculture System with NI CompactRIO and WSN”.</p>
+<p class="academic-partner"><strong>Academic Partner:</strong> NATIONAL INSTRUMENTS – Academic Channel Partner for S.T.E.M.</p>
             <div class="awards-gallery">
                 <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Award 1.jpg" alt="Award 1">
                 <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Award 2.jpg" alt="Award 2">
