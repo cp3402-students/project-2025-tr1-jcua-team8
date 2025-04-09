@@ -986,7 +986,7 @@ textarea {
 /* Logo image size */
 .custom-logo-link img {
 	max-height: 40px;  /* smaller logo height */
-	width: auto;
+	max-width: 50px;
 	margin-bottom: 0; /* remove extra spacing */
 }
 
