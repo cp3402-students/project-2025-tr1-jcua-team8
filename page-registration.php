@@ -13,7 +13,7 @@ get_header();
     </section>
 
     <section class="registration-form">
-        <?php echo do_shortcode('[wpforms id="123"]'); // Replace 123 with your actual form ID ?>
+        <?php echo do_shortcode('[wpforms id="44"]'); // Replace 123 with your actual form ID ?>
     </section>
 </div>
 
