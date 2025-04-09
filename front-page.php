@@ -4,7 +4,7 @@ get_header(); ?>
 
 <!-- Hero Banner Only -->
 <div class="hero-banner no-overlay">
-  <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Signboard 2.jpg" alt="Baizonn Signboard" class="hero-image">
+  <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Assets/images/Signboard 2.jpg" alt="Baizonn Signboard" class="hero-image">
 </div>
 
 <!-- Welcome Message & CTA -->
@@ -16,7 +16,7 @@ get_header(); ?>
 
 <!-- Welcome Image Section -->
 <section class="home-image">
-  <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Center 1.JPG" alt="Welcome to Baizonn" class="welcome-image">
+  <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/Center 1.JPG" alt="Welcome to Baizonn" class="welcome-image">
 </section>
 
 <!-- Information Section -->
@@ -29,9 +29,9 @@ get_header(); ?>
 <section class="home-gallery">
   <h2>Inside Our Centre</h2>
   <div class="gallery-grid">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Center 2.jpg" alt="Center Classroom">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Teaching 3.JPG" alt="Teaching">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Award 2.jpg" alt="Award">
+    <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/Center 2.jpg" alt="Center Classroom">
+    <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/Teaching 3.JPG" alt="Teaching">
+    <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/Award 2.jpg" alt="Award">
   </div>
 </section>
 
