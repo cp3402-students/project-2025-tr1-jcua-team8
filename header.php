@@ -23,7 +23,8 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="header-top">
-			<?php the_custom_logo(); ?>
+			<img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Centre Logo 1.png" alt="Baizonn Learning Centre Logo" class="site-logo">
+
 			<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
 			<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 		</div>
