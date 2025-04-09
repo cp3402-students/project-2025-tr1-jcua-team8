@@ -1348,6 +1348,46 @@ textarea {
 	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Full Our Values Section */
+.about-values-full {
+	background-color: #fefefe;
+	padding: 3rem 2rem;
+}
+
+.about-values-full h2 {
+	font-size: 2rem;
+	color: #007b5e;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.about-values-full .value-section {
+	max-width: 900px;
+	margin: 0 auto 2rem;
+	padding-bottom: 1.5rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.about-values-full .value-section:last-child {
+	border-bottom: none;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.about-values-full .value-section strong {
+	display: block;
+	font-size: 1.2rem;
+	color: #004c3f;
+	margin-bottom: 0.5rem;
+}
+
+.about-values-full .value-section p {
+	font-size: 1.05rem;
+	line-height: 1.7;
+	color: #333;
+	margin-bottom: 1rem;
+}
+
 /*--------------------------------------------------------------
 # Programs Page Styling
 --------------------------------------------------------------*/
