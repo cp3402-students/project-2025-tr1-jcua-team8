@@ -3,10 +3,6 @@
 
   <div class="hero-banner">
     <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Signboard 2.jpg" alt="Baizonn Learning Centre Signboard" class="hero-image">
-    <div class="hero-text">
-      <h1>Welcome to Baizonn Learning Centre</h1>
-      <p>Firm Foundation. Apply. Surpass. Top.</p>
-    </div>
   </div>
 
   <section class="hero">
