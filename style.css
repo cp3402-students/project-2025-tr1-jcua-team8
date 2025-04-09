@@ -1022,7 +1022,7 @@ textarea {
 	padding: 0.4rem 0.6rem; /* slight spacing for click area */
 }
 
-}
+
 
 .main-navigation a:hover {
 	color: #004534;
@@ -1390,6 +1390,20 @@ textarea {
 	color: #333;
 	margin-bottom: 1rem;
 }
+
+.about-banner {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 2rem;
+  }
+  
+  .about-banner-image {
+	width: 100%;
+	max-height: 300px;
+	object-fit: cover;
+	display: block;
+  }
+  
 
 /*--------------------------------------------------------------
 # Programs Page Styling
