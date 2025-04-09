@@ -46,6 +46,33 @@ get_header(); ?>
         </div>
     </section>
 
+    <!-- Full Our Values Section -->
+    <section class="about-values-full">
+        <div class="container">
+            <h2>Our Values</h2>
+
+            <div class="value-section">
+                <strong>Nurturing a Love For Learning</strong>
+                <p>For over 10 years, we have helped students achieve success in school and in life by nurturing a love for learning. From primary school to junior college, our students enjoy fun, interactive and relevant lessons and are empowered to think beyond the confines of the classroom.</p>
+            </div>
+
+            <div class="value-section">
+                <strong>Building a Strong Foundation</strong>
+                <p>At Baizonn Learning Centre, we strongly believe in building a strong foundation by helping students grasp fundamental Maths and Science principles before advancing to complex topics.</p>
+            </div>
+
+            <div class="value-section">
+                <strong>Preparing Students To Achieve Success</strong>
+                <p>Our students are at the centre of everything we do and their well-being and success in learning matter to us. While we educate our students, we also equip them with the right knowledge, skills and attitudes that help them solve problems, think big and seek excellence.</p>
+            </div>
+
+            <div class="value-section">
+                <strong>Passionate Teachers That Make A Difference</strong>
+                <p>Our teachers motivate and nurture every student to achieve their best and to build the right attitudes to ingrain a love for learning. We hire teachers with the right passion and qualifications and equip them to create amazing classroom experiences for their students. We’re committed to bringing out the best in every student.</p>
+            </div>
+        </div>
+    </section>
+
     <section class="about-achievements">
         <div class="container">
             <h2>Awards & Recognitions</h2>
@@ -72,4 +99,3 @@ get_header(); ?>
 </main>
 
 <?php get_footer(); ?>
-
