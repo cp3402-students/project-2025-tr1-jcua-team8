@@ -61,7 +61,7 @@ get_header(); ?>
       to build the right attitudes to ingrain a love for learning. </p>
     </div>
   </div>
-  <a href="<?php php echo esc_url( home_url('/about')); ?>" class="learn-more">Learn more about our values →</a>
+  <a href="<?php echo esc_url( home_url('/about')); ?>" class="learn-more">Learn more about our values →</a>
 </section>
 
 
