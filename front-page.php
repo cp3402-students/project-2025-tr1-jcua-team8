@@ -11,7 +11,7 @@ get_header(); ?>
 <section class="home-welcome" style="background-color: #e7f6f2; padding: 2rem; text-align: center;">
   <h1>Welcome to Baizonn Learning Centre</h1>
   <p>At Baizonn, we believe in nurturing young minds through Science, Math, and STEM-based learning. Our mission is to create confident, well-rounded learners through engaging lessons and hands-on activities.</p>
-  <a href="<?php php echo esc_url( home_url('/register')); ?>" class="btn-primary">Register Now</a>
+  <a href="<?php echo esc_url( home_url('/register')); ?>" class="btn-primary">Register Now</a>
 </section>
 
 <!-- Welcome Image Section -->
