@@ -1503,9 +1503,10 @@ body {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	max-width: 1200px;
+	max-width: 1000px; /* Reduced from 1200px */
 	margin: 0 auto 2rem;
-	gap: 1.5rem;
+	gap: 1rem; /* Reduced gap */
+	  
   }
   
   .footer-column {
