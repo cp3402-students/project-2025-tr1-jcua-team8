@@ -968,61 +968,51 @@ textarea {
 	margin-bottom: 1.5em;
 }
 
-/* ========== Improved Header Styling ========== */
+/* ========== Refined Header Styling ========== */
 
 .site-header {
 	background-color: #e7f6f2;
 	text-align: center;
-	padding: 1rem 0; /* reduced padding */
+	padding: 0.8rem 0 0.5rem 0; /* Less vertical padding */
 }
 
 .header-top {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 0.3rem; /* add subtle spacing between elements */
+	gap: 0.3rem;
 }
 
-/* Logo image size */
+/* Adjusted logo size */
 .custom-logo-link img {
-	max-height: 40px;  /* smaller logo height */
-	max-width: 50px;
-	margin-bottom: 0; /* remove extra spacing */
-}
-
-/* Site title */
-.site-title {
+	max-height: 50px;
+	width: auto;
 	margin: 0;
-	font-size: 1.8rem; /* slightly smaller */
-	color: #007b5e;
 }
 
-/* Site tagline */
+/* Hide site title and description if not needed */
+.site-title,
 .site-description {
-	font-size: 0.95rem;
-	color: #555;
-	margin-top: 0;
+	display: none;
 }
 
-/* Navigation styling */
+/* Menu styling */
 .main-navigation {
-	margin-top: 0.8rem;
+	margin-top: 0.5rem;
 	border-top: 1px solid #cceae4;
-	padding-top: 0.8rem;
+	padding-top: 0.5rem;
 }
 
-/* Menu layout */
 .main-navigation ul {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: 1rem; /* reduced gap */
+	gap: 1rem;
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-/* Menu links */
 .main-navigation a {
 	text-decoration: none;
 	color: #007b5e;
