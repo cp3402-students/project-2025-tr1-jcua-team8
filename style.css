@@ -1528,48 +1528,79 @@ textarea {
 	}
   }
  
-/* ======= Open Page Styles ======= */
-  .open-house-container {
-    background-color: #f8f9fc;
-    padding: 2rem;
-    border-radius: 8px;
-    max-width: 800px;
-    margin: 0 auto;
+/* ======= Open House Page Styles ======= */
+.open-house-container {
+    background-color: #f0fefb;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: 2rem auto;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 16px rgba(0, 123, 94, 0.15);
+    font-family: "Segoe UI", sans-serif;
 }
 
 .highlight-red {
-    color: red;
+    color: #d60000;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .highlight-blue {
     background-color: #ccf2f4;
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 1.5rem;
     display: inline-block;
     border-radius: 6px;
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #003f3f;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .open-house-container p {
-    margin: 1rem 0;
-    font-size: 1rem;
+    margin: 1.25rem 0;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #333;
 }
 
 .open-house-container a {
     color: #007b5e;
+    font-weight: 600;
     text-decoration: underline;
 }
 
-.tshirt-image img {
-    margin-top: 2rem;
-    width: 300px;
-    border: 2px solid #007b5e;
-    border-radius: 8px;
+.open-house-container a:hover {
+    color: #005f47;
+    text-decoration: none;
 }
+
+.open-house-container .gift-icon {
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.tshirt-image {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.tshirt-image img {
+    width: 250px;
+    border: 2px solid #007b5e;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.tshirt-image img:hover {
+    transform: scale(1.05);
+}
+
 /* ============================
         Footer Styling
 ============================= */
