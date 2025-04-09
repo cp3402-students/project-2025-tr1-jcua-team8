@@ -14,23 +14,21 @@ get_header(); ?>
     <div class="directions-gallery">
       <div class="transport-block">
         <h3>🚗 By Car</h3>
-        <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Direction By Car 2.tif" alt="Direction by Car">
-        <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Direction By Car 3.tif" alt="More Direction by Car">
+        <img src="http://baizonn.local/wp-content/uploads/2025/04/Direction-By-Car-2.jpg" alt="Direction by Car" class="Direction by car">
+        
       </div>
       <div class="transport-block">
         <h3>🚌 By Bus</h3>
         <img src="http://baizonn.local/wp-content/uploads/2025/04/Direction-By-Bus-2.jpg" alt="Direction by Car" class="Direction by bus">
-
-        <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Direction By Bus 3.jpg" alt="More Direction by Bus">
       </div>
       <div class="transport-block">
         <h3>💆‍♂️ By MRT</h3>
-        <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Direction By MRT 2.tif" alt="Direction by MRT">
-        <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Direction By MRT 3.tif" alt="More Direction by MRT">
+        <img src="http://baizonn.local/wp-content/uploads/2025/04/Direction-By-MRT-2.jpg" alt="Direction by Car" class="Direction by MRT">
+        
       </div>
       <div class="transport-block">
         <h3>📍 Centre Overview</h3>
-        <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Direction to Center.tif" alt="Center Map">
+        <img src="http://baizonn.local/wp-content/uploads/2025/04/Direction-to-Center.jpg" alt="Centre Map">
       </div>
     </div>
   </section>
