@@ -1444,4 +1444,48 @@ body {
 	  font-size: 0.95rem;
 	}
   }
+ 
+/* ======= Open Page Styles ======= */
+  .open-house-container {
+    background-color: #f8f9fc;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.highlight-red {
+    color: red;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.highlight-blue {
+    background-color: #ccf2f4;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.open-house-container p {
+    margin: 1rem 0;
+    font-size: 1rem;
+}
+
+.open-house-container a {
+    color: #007b5e;
+    text-decoration: underline;
+}
+
+.tshirt-image img {
+    margin-top: 2rem;
+    width: 300px;
+    border: 2px solid #007b5e;
+    border-radius: 8px;
+}
+ 
 	
