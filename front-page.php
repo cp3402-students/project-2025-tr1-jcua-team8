@@ -2,70 +2,49 @@
 /* Template Name: Home Page */
 get_header(); ?>
 
-<!-- Hero Section -->
+<!-- Hero Banner Only -->
 <div class="hero-banner no-overlay">
   <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Signboard 2.jpg" alt="Baizonn Signboard" class="hero-image">
 </div>
 
-<!-- About Section -->
-<section class="home-section about">
-  <div class="content-wrapper">
-    <div class="text-block">
-      <h2>About Baizonn</h2>
-      <p>Founded in 2013, Baizonn Learning Centre offers a holistic education journey in Science, Math, and STEM. We focus on helping every student discover their unique learning style through a hands-on approach, tailored feedback, and passionate mentorship.</p>
-    </div>
-    <div class="image-block">
-      <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Center 6.JPG" alt="Baizonn Centre Entrance">
-    </div>
-  </div>
+<!-- Welcome Message & CTA -->
+<section class="home-welcome" style="background-color: #e7f6f2; padding: 2rem; text-align: center;">
+  <h1>Welcome to Baizonn Learning Centre</h1>
+  <p>At Baizonn, we believe in nurturing young minds through Science, Math, and STEM-based learning. Our mission is to create confident, well-rounded learners through engaging lessons and hands-on activities.</p>
+  <a href="<?php echo home_url('/open-house'); ?>" class="btn-primary">Register Now</a>
 </section>
 
-<!-- Values Section -->
-<section class="home-section values">
-  <h2 class="section-heading">Our Core Values</h2>
-  <div class="values-grid">
-    <div class="value-box">
-      <h3>F.A.S.T.</h3>
-      <ul>
-        <li>Firm Foundation</li>
-        <li>Apply Knowledge</li>
-        <li>Surpass Abilities</li>
-        <li>Top Performance</li>
-      </ul>
-    </div>
-    <div class="value-box">
-      <h3>S.T.E.M.</h3>
-      <ul>
-        <li>Science</li>
-        <li>Technology</li>
-        <li>Engineering</li>
-        <li>Mathematics</li>
-      </ul>
-    </div>
-    <div class="image-box">
-      <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Info 3 -F.A.S.T Value Proposition.jpg" alt="FAST Value Image">
-    </div>
-  </div>
+<!-- Welcome Image Section -->
+<section class="home-image">
+  <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Center 1.JPG" alt="Welcome to Baizonn" class="welcome-image">
 </section>
 
-<!-- Gallery Section (Reduced Images) -->
-<section class="home-section gallery">
-  <h2 class="section-heading">Inside Baizonn</h2>
+<!-- Information Section -->
+<section class="home-info">
+  <h2>Why Choose Baizonn?</h2>
+  <p>We follow the F.A.S.T. and S.T.E.M. framework that encourages critical thinking and real-world problem solving. From Primary to Junior College, our passionate educators are committed to excellence.</p>
+</section>
+
+<!-- Media Gallery -->
+<section class="home-gallery">
+  <h2>Inside Our Centre</h2>
   <div class="gallery-grid">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Center 5.JPG" alt="Classroom">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Award 3.jpg" alt="Award Presentation">
+    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Center 2.jpg" alt="Center Classroom">
+    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Teaching 3.JPG" alt="Teaching">
+    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Award 2.jpg" alt="Award">
   </div>
 </section>
 
-<!-- Call to Action -->
-<section class="home-section cta">
-  <div class="cta-content">
-    <h2>Ready to Join the Baizonn Family?</h2>
-    <p>Book your seat now for the 2025 intake and claim your FREE Baizonn T-Shirt at the Open House!</p>
-    <a href="<?php echo home_url('/open-house'); ?>" class="btn-primary">Register for Open House</a>
-  </div>
-  <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Centre Logo 9.jpg" alt="Baizonn Visual" class="cta-image">
+<!-- Additional Info -->
+<section class="home-highlight">
+  <h2>Our Programs Empower Every Learner</h2>
+  <p>Whether preparing for PSLE or tackling advanced JC topics, our tailored programs meet every student where they are. Experience hands-on activities, concept-based learning, and real academic results.</p>
+</section>
+
+<!-- Final Call to Action -->
+<section class="home-cta-final">
+  <h2>Secure Your Spot Today!</h2>
+  <a href="<?php echo home_url('/open-house'); ?>" class="btn-primary">Join Our 2025 Intake</a>
 </section>
 
 <?php get_footer(); ?>
-
