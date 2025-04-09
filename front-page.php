@@ -68,7 +68,7 @@ get_header(); ?>
 <!-- Final Call to Action -->
 <section class="home-cta-final">
   <h2>Secure Your Spot Today!</h2>
-  <a href="<?php echo home_url('/register'); ?>" class="btn-primary">Join Our 2025 Intake</a>
+  <a href="<?php echo esc_url( home_url('/register')); ?>" class="btn-primary">Join Our 2025 Intake</a>
 </section>
 
 <?php get_footer(); ?>
