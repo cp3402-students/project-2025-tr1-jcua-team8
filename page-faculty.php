@@ -6,7 +6,7 @@ get_header(); ?>
   <h1 class="teachers-heading">Meet Our Teachers</h1>
 
   <div class="teacher-profile">
-    <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Teacher Ms Siti.png" alt="Teacher Ms Siti">
+    <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Assets/images/Teacher Ms Siti.png" alt="Teacher Ms Siti">
     <div class="teacher-info">
       <h2>Ms Siti</h2>
       <p><strong>Qualification:</strong> Bachelor in Science</p>
@@ -16,7 +16,7 @@ get_header(); ?>
   </div>
 
   <div class="teacher-profile">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Teacher Ms Jennifer Chen.png" alt="Teacher Ms Jennifer Chen">
+    <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/Teacher Ms Jennifer Chen.png" alt="Teacher Ms Jennifer Chen">
     <div class="teacher-info">
       <h2>Ms Jennifer Chen</h2>
       <p><strong>Qualification:</strong> Masters in Education, Post Diploma in Education</p>
@@ -26,7 +26,7 @@ get_header(); ?>
   </div>
 
   <div class="teacher-profile">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Teacher Mr Gao Tian.png" alt="Teacher Mr Gao Tian">
+    <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/Teacher Mr Gao Tian.png" alt="Teacher Mr Gao Tian">
     <div class="teacher-info">
       <h2>Mr Gao Tian</h2>
       <p><strong>Qualification:</strong> Bachelor in Science</p>
@@ -36,7 +36,7 @@ get_header(); ?>
   </div>
 
   <div class="teacher-profile">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Teacher Mr Roland Kenny.png" alt="Teacher Mr Roland Kenny">
+    <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/Teacher Mr Roland Kenny.png" alt="Teacher Mr Roland Kenny">
     <div class="teacher-info">
       <h2>Mr Roland Kenny</h2>
       <p><strong>Qualification:</strong> Masters in Business Administration</p>
@@ -46,7 +46,7 @@ get_header(); ?>
   </div>
 
   <div class="teacher-profile">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Teacher Mr Peter John.png" alt="Teacher Mr Peter John">
+    <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/Teacher Mr Peter John.png" alt="Teacher Mr Peter John">
     <div class="teacher-info">
       <h2>Mr Peter John</h2>
       <p><strong>Qualification:</strong> Bachelor in Science</p>
@@ -56,7 +56,7 @@ get_header(); ?>
   </div>
 
   <div class="teacher-profile">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Teacher Mdm Yati.png" alt="Teacher Ms Yati">
+    <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/Teacher Mdm Yati.png" alt="Teacher Ms Yati">
     <div class="teacher-info">
       <h2>Ms Yati</h2>
       <p><strong>Qualification:</strong> Masters in Education, Post Diploma in Education</p>

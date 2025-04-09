@@ -21,7 +21,7 @@ get_header(); ?>
     <p><strong>🎁 Unique Baizonn T-Shirt</strong> will be given free for all confirmed students during the Open House!</p>
 
     <div class="tshirt-image">
-        <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/T-Shirt.png" alt="Baizonn T-Shirt">
+        <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/T-Shirt.png" alt="Baizonn T-Shirt">
     </div>
 </div>
 

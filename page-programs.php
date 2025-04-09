@@ -24,7 +24,7 @@ get_header(); ?>
                 <li>PSLE Mathematics</li>
                 <li>PSLE Science</li>
             </ul>
-            <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Teaching 1.JPG" alt="Primary Teaching" class="program-image">
+            <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/Teaching 1.JPG" alt="Primary Teaching" class="program-image">
         </div>
     </section>
 
@@ -37,7 +37,7 @@ get_header(); ?>
                 <li>GCE 'O' Level Mathematics</li>
                 <li>GCE 'O' Level Science</li>
             </ul>
-            <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Teaching 2.JPG" alt="Secondary STEM Class" class="program-image">
+            <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/Teaching 2.JPG" alt="Secondary STEM Class" class="program-image">
         </div>
     </section>
 
@@ -48,7 +48,7 @@ get_header(); ?>
                 <li>GCE 'A' Levels Mathematics</li>
                 <li>GCE 'A' Levels Science</li>
             </ul>
-            <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Teaching 3.JPG" alt="Junior College Class" class="program-image">
+            <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/Teaching 3.JPG" alt="Junior College Class" class="program-image">
         </div>
     </section>
 </main>
