@@ -45,7 +45,7 @@ get_header(); ?>
   <!-- Call to Action -->
   <section class="contact-cta">
     <h2>Ready to Start Your Journey with Us?</h2>
-    <a href="<?php echo home_url('/register'); ?>" class="btn-primary">Register Now</a>
+    <a href="<?php echo esc_url( home_url('/register')); ?>" class="btn-primary">Register Now</a>
   </section>
 </div>
 
