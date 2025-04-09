@@ -9,7 +9,7 @@ get_header(); ?>
 <main id="primary" class="site-main about-page">
     <!-- About Page Top Banner -->
     <div class="about-banner">
-    <img src="<?php echo get_template_directory_uri(); ?>/Baizonn Content/Centre Logo 9.jpg" alt="About Us Banner" class="about-banner-image">
+    <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/Centre Logo 9.jpg" alt="About Us Banner" class="about-banner-image">
     </div>
 
     <section class="about-hero">
@@ -28,7 +28,7 @@ get_header(); ?>
                 <p>We nurture a love for learning and develop confident, successful learners. Baizonn empowers students to think beyond the classroom while instilling the knowledge, skills, and attitudes needed to thrive.</p>
             </div>
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Info 1 -Teaching Philosophy.jpg" alt="Teaching Philosophy">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Assets/images/Info 1 -Teaching Philosophy.jpg" alt="Teaching Philosophy">
             </div>
         </div>
     </section>
@@ -46,7 +46,7 @@ get_header(); ?>
                 </ul>
             </div>
             <div class="image">
-                <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Info 3 -F.A.S.T Value Proposition.jpg" alt="FAST Value Proposition">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Assets/images/Info 3 -F.A.S.T Value Proposition.jpg" alt="FAST Value Proposition">
             </div>
         </div>
     </section>
@@ -84,10 +84,10 @@ get_header(); ?>
             <p>Baizonn received the National Instruments Engineering Impact Award ASEAN/ANZ Regional Contest in 2016 for their innovative project on “A Smart Recirculating Aquaculture System with NI CompactRIO and WSN”.</p>
 <p class="academic-partner"><strong>Academic Partner:</strong> NATIONAL INSTRUMENTS – Academic Channel Partner for S.T.E.M.</p>
             <div class="awards-gallery">
-                <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Award 1.jpg" alt="Award 1">
-                <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Award 2.jpg" alt="Award 2">
-                <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Award 3.jpg" alt="Award 3">
-                <img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Award 4.jpg" alt="Award 4">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Assets/images/Award 1.jpg" alt="Award 1">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Assets/images/Award 2.jpg" alt="Award 2">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Assets/images/Award 3.jpg" alt="Award 3">
+                <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Assets/images/Award 4.jpg" alt="Award 4">
             </div>
         </div>
     </section>
