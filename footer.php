@@ -35,8 +35,8 @@
 
   <div class="footer-bottom">
     &copy; <?php echo date("Y"); ?> Baizonn Learning Centre. All rights reserved. <br>
-    <a href="<?php echo home_url('/privacy-policy'); ?>">Privacy Policy</a> |
-    <a href="<?php echo home_url('/terms-of-use'); ?>">Terms of Use</a>
+    <a href="<?php echo esc_url( home_url('/privacy-policy')); ?>">Privacy Policy</a> |
+    <a href="<?php echo esc_url( home_url('/terms-of-use')); ?>">Terms of Use</a>
   </div>
 </footer>
 
