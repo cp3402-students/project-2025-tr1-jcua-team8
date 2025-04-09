@@ -21,25 +21,24 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 
-	<header id="masthead" class="site-header">
-		<div class="header-container">
-			<!-- Logo -->
-			<div class="site-branding">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<img src="<?php echo get_template_directory_uri(); ?>/Assets/images/Centre-Logo-1.jpg" alt="Baizonn Learning Centre" class="site-logo">
-				</a>
-			</div>
-
-			<!-- Navigation -->
-			<nav id="site-navigation" class="main-navigation">
-				<?php
-				wp_nav_menu( array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				) );
-				?>
-			</nav>
+	<header id="masthead" class="site-header" role="banner">
+		<div class="header-top">
+			<?php the_custom_logo(); ?>
+			<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+			<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 		</div>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<?php
+				wp_nav_menu(
+					array(
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu',
+					)
+				);
+			?>
+		</nav>
 	</header>
+
 
 	<div id="content" class="site-content">
