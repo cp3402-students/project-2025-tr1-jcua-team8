@@ -97,7 +97,8 @@ get_header(); ?>
             <h2>Learning In Action</h2>
             <p>Watch how we inspire learning beyond textbooks:</p>
             <div class="video-embed">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/igcoDFokKzU" frameborder="0" allowfullscreen></iframe>
+            <?php echo wp_oembed_get( 'https://www.youtube.com/watch?v=igcoDFok' ); ?>
+
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/wHpqlBWtnPc" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
