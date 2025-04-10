@@ -3,13 +3,15 @@
 get_header(); ?>
 
 <!-- HERO BANNER -->
-<section class="hero-banner no-overlay" style="position: relative;">
+<section class="hero-banner no-overlay">
   <img src="<?php echo esc_url(get_template_directory_uri()); ?>/Assets/images/Signboard 2.jpg" alt="Baizonn Signboard" class="hero-image">
-  <div class="hero-text-overlay">
-    <h1>Welcome to Baizonn Learning Centre</h1>
-    <p>Empowering young minds through Science, Technology, Engineering, and Mathematics (S.T.E.M).</p>
-    <a href="<?php echo esc_url(home_url('/register')); ?>" class="btn-primary">Register Now</a>
-  </div>
+</section>
+
+<!-- Welcome Message Below Banner -->
+<section class="home-welcome">
+  <h1>Welcome to Baizonn Learning Centre</h1>
+  <p>At Baizonn, we believe in nurturing young minds through Science, Math, and STEM-based learning. Our mission is to create confident, well-rounded learners through engaging lessons and hands-on activities.</p>
+  <a href="<?php echo esc_url( home_url('/register')); ?>" class="btn-primary">Register Now</a>
 </section>
 
 <!-- ABOUT THE CENTRE -->
