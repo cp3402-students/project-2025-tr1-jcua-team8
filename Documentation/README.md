@@ -84,8 +84,8 @@ The project was managed using the following tools:
   https://itatjcu.slack.com/archives/G0PC1RR17
 
 - AWS Lightsail: Used for hosting
-  Staging site: 
-  Production site: 
+  Staging site: http://3.106.131.93/wp-admin
+  Production site: http://3.104.55.237/wp-admin
 
 ---
 
