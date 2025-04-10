@@ -41,8 +41,8 @@ This document outlines the development and deployment workflow for the Baizonn L
 
 - Repository: [GitHub - Baizonn Project](https://github.com/cp3402-students/project-2025-tr1-jcua-team8.git)
 - Branches:
-  - `main`: Staging
-  - `production`: Live site
+  - `main`: Staging - http://3.106.131.93/wp-admin
+  - `production`: Live site - http://3.104.55.237/wp-admin
 
 #### Git Workflow
 
