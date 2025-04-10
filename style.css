@@ -1086,10 +1086,11 @@ textarea {
 /* Welcome Section */
 .home-welcome {
 	background-color: #e7f6f2;
-	padding: 2rem 1rem;
+	padding: 3rem 1rem;
 	text-align: center;
-	margin-top: -10px; /* Pull up closer to banner */
+	margin-top: 0; /* ✅ no overlap */
 }
+
 
 .home-welcome h1 {
 	font-size: 2.2rem;
@@ -1134,31 +1135,7 @@ textarea {
 	box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
-/* === Hero Banner Overlay === */
-.hero-text-overlay {
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background: rgba(255, 255, 255, 0.8);
-	padding: 2rem;
-	border-radius: 10px;
-	text-align: center;
-	max-width: 90%;
-	box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
-  
-  .hero-text-overlay h1 {
-	color: #007b5e;
-	font-size: 2.2rem;
-	margin-bottom: 1rem;
-  }
-  
-  .hero-text-overlay p {
-	color: #333;
-	font-size: 1.1rem;
-	margin-bottom: 1.5rem;
-  }
+
   
   /* === Program Cards === */
   .program-cards {
