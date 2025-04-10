@@ -50,7 +50,7 @@ get_header(); ?>
   <div class="gallery-grid">
     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/Baizonn Content/Center 2.jpg" alt="Classroom">
     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/Baizonn Content/Teaching 3.JPG" alt="Teaching in Action">
-    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/Baizonn Content/Award 2.jpg" alt="Student Award">
+    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/Baizonn Content/Open House 2021 1.JPG" alt="Student Award">
   </div>
 </section>
 
