@@ -1134,6 +1134,80 @@ textarea {
 	box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
+/* === Hero Banner Overlay === */
+.hero-text-overlay {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(255, 255, 255, 0.8);
+	padding: 2rem;
+	border-radius: 10px;
+	text-align: center;
+	max-width: 90%;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .hero-text-overlay h1 {
+	color: #007b5e;
+	font-size: 2.2rem;
+	margin-bottom: 1rem;
+  }
+  
+  .hero-text-overlay p {
+	color: #333;
+	font-size: 1.1rem;
+	margin-bottom: 1.5rem;
+  }
+  
+  /* === Program Cards === */
+  .program-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2rem;
+	margin-top: 2rem;
+  }
+  
+  .program-card {
+	background: #e7f6f2;
+	padding: 1.5rem;
+	border-radius: 10px;
+	width: 280px;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  }
+  
+  /* === Value Boxes === */
+  .values-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 2rem;
+	margin-top: 2rem;
+  }
+  
+  .value-box {
+	background: #f3fdfc;
+	padding: 1.5rem;
+	width: 300px;
+	border-radius: 10px;
+	box-shadow: 0 3px 8px rgba(0,0,0,0.07);
+  }
+  
+  /* === Testimonials === */
+  .home-testimonials blockquote {
+	font-style: italic;
+	background: #fff;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 1.5rem;
+	border-left: 5px solid #007b5e;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+	border-radius: 6px;
+	color: #444;
+  }
+  
+
 /* Info Sections */
 .home-info,
 .home-highlight {
