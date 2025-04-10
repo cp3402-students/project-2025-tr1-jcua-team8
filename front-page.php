@@ -19,6 +19,16 @@ get_header(); ?>
   <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/Center 1.JPG" alt="Welcome to Baizonn" class="welcome-image">
 </section>
 
+<!-- NEW: About the Centre Context Section -->
+<section class="home-context">
+  <div class="container" style="max-width: 900px; margin: 0 auto; text-align: center; padding: 2rem 1rem;">
+    <h2>About Our Learning Environment</h2>
+    <p>Baizonn Learning Centre has served as a hub for academic excellence and personal growth for over a decade. We specialize in Science, Mathematics, and English enrichment across multiple levels – from Primary School to Junior College.</p>
+    <p>Our classes are designed to foster critical thinking, collaborative learning, and a deep understanding of core concepts. Through our dedicated educators and a well-rounded curriculum, we aim to help students reach their full academic potential while building resilience and curiosity.</p>
+    <p>We take pride in our student achievements, from improved grades to regional science fair victories, and attribute this success to a nurturing environment combined with strong academic support.</p>
+  </div>
+</section>
+
 <!-- Information Section -->
 <section class="home-info">
   <h2>Why Choose Baizonn?</h2>
@@ -47,23 +57,19 @@ get_header(); ?>
   <div class="values-grid">
     <div class="value-box">
       <h3>Nurturing a Love for Learning</h3>
-      <p>For over 10 years, we have helped students achieve success in school and in life by nurturing a love for 
-      learning.</p>
+      <p>For over 10 years, we have helped students achieve success in school and in life by nurturing a love for learning.</p>
     </div>
     <div class="value-box">
       <h3>Preparing Students To Achieve Success </h3>
       <p>Developing Confident and Successful Learners</p>
     </div>
-    
     <div class="value-box">
       <h3>Passionate Teachers That Make A Difference </h3>
-      <p>At Baizonn Learning Center, our teachers motivate and nurture every student to achieve their best and 
-      to build the right attitudes to ingrain a love for learning. </p>
+      <p>At Baizonn Learning Center, our teachers motivate and nurture every student to achieve their best and to build the right attitudes to ingrain a love for learning. </p>
     </div>
   </div>
   <a href="<?php echo esc_url( home_url('/about')); ?>" class="learn-more">Learn more about our values →</a>
 </section>
-
 
 <!-- Final Call to Action -->
 <section class="home-cta-final">
