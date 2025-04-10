@@ -969,7 +969,7 @@ textarea {
 	margin-bottom: 1.5em;
 }
 
-/* ========== Refined Header Styling ========== */
+/* ========== Header Styling ========== */
 
 .site-header {
 	background-color: #e7f6f2;
@@ -1077,7 +1077,7 @@ textarea {
   
   .hero-banner img.hero-image {
 	width: 100%;
-	height: auto;
+	height: 70%;
 	display: block;
   }
   
@@ -1124,7 +1124,7 @@ textarea {
   
   .home-image img {
 	max-width: 75%;
-	max-height: 40%;
+	max-height: 20%%;
 	border-radius: 10px;
 	box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   }
