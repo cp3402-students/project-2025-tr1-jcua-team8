@@ -1900,32 +1900,32 @@ textarea {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	max-width: 1000px; /* Reduced from 1200px */
-	margin: 0 auto 2rem;
-	gap: 1rem; /* Reduced gap */
-	  
+	max-width: 1000px;
+	margin: 0 auto 1rem; /* Reduced bottom margin */
+	gap: 0.5rem; /* Reduced gap between columns */
   }
   
   .footer-column {
 	flex: 1;
 	min-width: 200px;
-	padding: 0 1rem;
+	padding: 0 0.5rem; /* Reduced side padding */
   }
   
   .footer-column h3 {
-	font-size: 1.3rem;
-	margin-bottom: 1rem;
+	font-size: 1.2rem; /* Slightly smaller */
+	margin-bottom: 0.5rem; /* Reduced spacing below heading */
 	border-bottom: 2px solid #00b894;
-	padding-bottom: 0.5rem;
-	color: #ffffff;
+	padding-bottom: 0.3rem;
   }
   
   .footer-column p,
   .footer-column a {
 	color: #e2e2e2;
-	line-height: 1.8;
+	line-height: 1.5; /* Reduced line spacing */
 	text-decoration: none;
+	margin: 0.2rem 0; /* Reduced top/bottom spacing */
   }
+  
   
   .footer-column a:hover {
 	color: #ffffff;
