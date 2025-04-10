@@ -8,28 +8,32 @@ get_header(); ?>
 </div>
 
 <!-- Welcome Message & CTA -->
-<section class="home-welcome" style="background-color: #e7f6f2; padding: 2rem; text-align: center;">
-  <h1>Welcome to Baizonn Learning Centre</h1>
-  <p>At Baizonn, we believe in nurturing young minds through Science, Math, and STEM-based learning. Our mission is to create confident, well-rounded learners through engaging lessons and hands-on activities.</p>
+<section class="home-welcome" style="background-color: #e7f6f2; padding: 2.5rem 2rem; text-align: center;">
+  <h1 style="margin-bottom: 1rem;">Welcome to Baizonn Learning Centre</h1>
+  <p style="max-width: 800px; margin: 0 auto 1.5rem;">At Baizonn, we believe in nurturing young minds through Science, Math, and STEM-based learning. Our mission is to create confident, well-rounded learners through engaging lessons and hands-on activities.</p>
   <a href="<?php echo esc_url( home_url('/register')); ?>" class="btn-primary">Register Now</a>
 </section>
 
 <!-- Welcome Image Section -->
-<section class="home-image">
-  <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/Center 1.JPG" alt="Welcome to Baizonn" class="welcome-image">
+<section class="home-image" style="text-align: center; padding: 2rem 1rem;">
+  <img src="<?php echo esc_url( get_template_directory_uri()); ?>/Baizonn Content/Center 1.JPG" alt="Welcome to Baizonn" class="welcome-image" style="max-width: 70%; height: auto; border-radius: 10px;">
 </section>
 
-<!-- NEW: About the Centre Context Section -->
-<section class="home-context">
-  <div class="container" style="max-width: 900px; margin: 0 auto; text-align: center; padding: 2rem 1rem;">
-    <h2>About Our Learning Environment</h2>
-    <p>Baizonn Learning Centre has served as a hub for academic excellence and personal growth for over a decade. We specialize in Science, Mathematics, and English enrichment across multiple levels – from Primary School to Junior College.</p>
-    <p>Our classes are designed to foster critical thinking, collaborative learning, and a deep understanding of core concepts. Through our dedicated educators and a well-rounded curriculum, we aim to help students reach their full academic potential while building resilience and curiosity.</p>
-    <p>We take pride in our student achievements, from improved grades to regional science fair victories, and attribute this success to a nurturing environment combined with strong academic support.</p>
+<!-- Detailed Centre Introduction -->
+<section class="home-context" style="padding: 3rem 1rem; background-color: #ffffff; text-align: center;">
+  <div style="max-width: 900px; margin: 0 auto;">
+    <h2 style="color: #007b5e;">Empowering Learners Through Quality Education</h2>
+    <p style="margin-top: 1rem;">Baizonn Learning Centre has served as a trusted academic support hub for students across all levels – from Primary to Junior College. We specialize in:</p>
+    <ul style="text-align: left; max-width: 750px; margin: 1rem auto 2rem; line-height: 1.8;">
+      <li><strong>Primary School:</strong> Building strong foundational skills in Math, Science, and English with activity-based learning and problem-solving tasks.</li>
+      <li><strong>Secondary School:</strong> Focused enrichment for O-Level subjects, preparing students with critical thinking and exam techniques.</li>
+      <li><strong>Junior College:</strong> Advanced content for A-Level topics, including structured guidance and personalized feedback.</li>
+    </ul>
+    <p>We believe that learning should be inspiring, engaging, and tailored to meet the unique needs of each student. That’s why our team of experienced educators emphasizes mastery, creativity, and confidence-building in every session.</p>
   </div>
 </section>
 
-<!-- Information Section -->
+<!-- Why Choose Us -->
 <section class="home-info">
   <h2>Why Choose Baizonn?</h2>
   <p>We follow the F.A.S.T. and S.T.E.M. framework that encourages critical thinking and real-world problem solving. From Primary to Junior College, our passionate educators are committed to excellence.</p>
